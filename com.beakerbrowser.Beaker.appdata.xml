@@ -17,7 +17,17 @@
   </screenshots>
   <url type="homepage">https://beakerbrowser.com</url>
   <releases>
-    <release version="0.8.1" date="2018-11-16"/>
+    <release version="0.8.2" date="2018-11-29">
+      <description>
+        <p>
+          Beaker 0.8.2.
+        </p>
+        <ul>
+          <li>Fix issue with dat forking ("Make an editable copy") where
+              files would not be copied</li>
+        </ul>
+      </description>
+    </release>
   </releases>
   <content_rating type="oars-1.0">
     <content_attribute id="violence-cartoon">none</content_attribute>
