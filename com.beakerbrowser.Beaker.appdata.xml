@@ -20,6 +20,16 @@
   <url type="help">https://beakerbrowser.com/docs/</url>
   <url type="donation">https://opencollective.com/beaker</url>
   <releases>
+    <release version="0.8.3" date="2019-02-03">
+      <description>
+        <ul>
+          <li>Upgrade to Electron 4.0.3 and Chromium 69</li>
+          <li>Add “sound playing” and “muted” indicator to tabs</li>
+          <li>Fixes to the Dat stack</li>
+          <li>Various small fixes</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.8.2" date="2018-11-29">
       <description>
         <ul>
