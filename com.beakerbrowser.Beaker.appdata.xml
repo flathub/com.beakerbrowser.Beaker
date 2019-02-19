@@ -20,11 +20,13 @@
   <url type="help">https://beakerbrowser.com/docs/</url>
   <url type="donation">https://opencollective.com/beaker</url>
   <releases>
-    <release version="0.8.2" date="2018-11-29">
+    <release version="0.8.5" date="2019-02-18">
       <description>
         <ul>
-          <li>Fix issue with dat forking ("Make an editable copy") where
-              files would not be copied</li>
+          <li>Adds UPnP port-binding, to help improve connectivity success.</li>
+          <li>Temporary disables the HTML5 fullscreen APIs due to an issue with upstream.</li>
+          <li>Fix a bug which caused Beaker to freeze due to bad responses from the dat:// protocol.</li>
+          <li>Beaker now uses Chromium's process-level sandbox.</li>
         </ul>
       </description>
     </release>

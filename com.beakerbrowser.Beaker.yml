@@ -26,8 +26,8 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/beakerbrowser/beaker/releases/download/0.8.2/beaker-browser-0.8.2-x86_64.AppImage
-        sha256: 17f6aa299488928bc8c698d2ccc7f605cbf611298c509a5dfe2af86c9a6e98b2
+        url: https://github.com/beakerbrowser/beaker/releases/download/0.8.5/Beaker.Browser.0.8.5.AppImage
+        sha256: 175dff27eddeabf1a556d5e89be5acf2687475ecea08a41ecace4bab747eda34
       - type: script
         dest-filename: beaker
         commands:
@@ -38,11 +38,11 @@ modules:
       - type: file
         path: com.beakerbrowser.Beaker.desktop
     build-commands:
-      - chmod +x beaker-browser-0.8.2-x86_64.AppImage
-      - ./beaker-browser-0.8.2-x86_64.AppImage --appimage-extract
+      - chmod +x Beaker.Browser.0.8.5.AppImage
+      - ./Beaker.Browser.0.8.5.AppImage --appimage-extract
 
       - mkdir "${FLATPAK_DEST}/beaker"
-      - cp -r squashfs-root/app/* "${FLATPAK_DEST}/beaker/"
+      - cp -r squashfs-root/* "${FLATPAK_DEST}/beaker/"
       - install beaker "${FLATPAK_DEST}/bin/"
 
       - mkdir -p "${FLATPAK_DEST}/share/icons/hicolor/"
