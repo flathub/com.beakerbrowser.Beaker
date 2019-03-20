@@ -20,13 +20,13 @@
   <url type="help">https://beakerbrowser.com/docs/</url>
   <url type="donation">https://opencollective.com/beaker</url>
   <releases>
-    <release version="0.8.5" date="2019-02-18">
+    <release version="0.8.6" date="2019-03-19">
       <description>
         <ul>
-          <li>Adds UPnP port-binding, to help improve connectivity success.</li>
-          <li>Temporary disables the HTML5 fullscreen APIs due to an issue with upstream.</li>
-          <li>Fix a bug which caused Beaker to freeze due to bad responses from the dat:// protocol.</li>
-          <li>Beaker now uses Chromium's process-level sandbox.</li>
+          <li>Security update (Chromium FileReader Vulnerability).</li>
+          <li>Beaker's UI has been rewritten to improve performance and stability.</li>
+          <li>Dat DNS-over-HTTPS lookups are now randomized between multiple providers to reduce the user's browsing fingerprint.</li>
+          <li>Devtools are now dockable to the window.</li>
         </ul>
       </description>
     </release>

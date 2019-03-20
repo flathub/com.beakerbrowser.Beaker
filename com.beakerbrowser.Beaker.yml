@@ -26,8 +26,8 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/beakerbrowser/beaker/releases/download/0.8.5/Beaker.Browser.0.8.5.AppImage
-        sha256: 175dff27eddeabf1a556d5e89be5acf2687475ecea08a41ecace4bab747eda34
+        url: https://github.com/beakerbrowser/beaker/releases/download/0.8.6/Beaker.Browser.0.8.6.AppImage
+        sha256: 0345f77fb6cde90cc8dc4415176724784ec99938ed24f60db062746e2db33024
       - type: script
         dest-filename: beaker
         commands:
@@ -38,8 +38,8 @@ modules:
       - type: file
         path: com.beakerbrowser.Beaker.desktop
     build-commands:
-      - chmod +x Beaker.Browser.0.8.5.AppImage
-      - ./Beaker.Browser.0.8.5.AppImage --appimage-extract
+      - chmod +x Beaker.Browser.0.8.6.AppImage
+      - ./Beaker.Browser.0.8.6.AppImage --appimage-extract
 
       - mkdir "${FLATPAK_DEST}/beaker"
       - cp -r squashfs-root/* "${FLATPAK_DEST}/beaker/"
