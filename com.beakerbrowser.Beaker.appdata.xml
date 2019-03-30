@@ -20,13 +20,18 @@
   <url type="help">https://beakerbrowser.com/docs/</url>
   <url type="donation">https://opencollective.com/beaker</url>
   <releases>
-    <release version="0.8.6" date="2019-03-19">
+    <release version="0.8.7" date="2019-03-29">
       <description>
         <ul>
-          <li>Security update (Chromium FileReader Vulnerability).</li>
-          <li>Beaker's UI has been rewritten to improve performance and stability.</li>
-          <li>Dat DNS-over-HTTPS lookups are now randomized between multiple providers to reduce the user's browsing fingerprint.</li>
-          <li>Devtools are now dockable to the window.</li>
+          <li>Fixed a persistent freezing issue. Sorry about that everyone!</li>
+          <li>Fix: Favicons should now render correctly</li>
+          <li>Fix: URL will no longer overflow the navbar</li>
+          <li>Fix: URL will no longer swap to items loading within the page</li>
+          <li>Fixed an issue where Beaker would fail to close in Windows and Linux</li>
+          <li>Fixed an issue where the url bar suggestions would not accept clicks</li>
+          <li>Fix: Devtools no longer opens a “chrome-devtools://“ tab when popping out</li>
+          <li>Fix: Windows and Linux now correctly show the new beaker logo image</li>
+          <li>Fix: A weird little window no longer shows up during startup on Windows</li>
         </ul>
       </description>
     </release>
