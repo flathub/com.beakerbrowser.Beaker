@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Beaker Browser
 Comment=An Experimental Peer-to-Peer Web Browser.
-Exec=beaker
+Exec=beaker %u
 Terminal=false
 Type=Application
 Icon=com.beakerbrowser.Beaker
