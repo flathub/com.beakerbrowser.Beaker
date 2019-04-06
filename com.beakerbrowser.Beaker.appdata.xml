@@ -4,10 +4,10 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   <name>Beaker</name>
-  <summary>A browser for the next-generation Web</summary>
+  <summary>A browser for the next-generation P2P web</summary>
   <description>
     <p>
-      Beaker is an experimental browser for exploring and building the peer-to-peer Web.
+      Beaker is an experimental web browser for exploring and building the distributed peer-to-peer web.
     </p>
   </description>
   <screenshots>
@@ -20,18 +20,11 @@
   <url type="help">https://beakerbrowser.com/docs/</url>
   <url type="donation">https://opencollective.com/beaker</url>
   <releases>
-    <release version="0.8.7" date="2019-03-29">
+    <release version="0.8.8" date="2019-04-02">
       <description>
         <ul>
-          <li>Fixed a persistent freezing issue. Sorry about that everyone!</li>
-          <li>Fix: Favicons should now render correctly</li>
-          <li>Fix: URL will no longer overflow the navbar</li>
-          <li>Fix: URL will no longer swap to items loading within the page</li>
-          <li>Fixed an issue where Beaker would fail to close in Windows and Linux</li>
-          <li>Fixed an issue where the url bar suggestions would not accept clicks</li>
-          <li>Fix: Devtools no longer opens a “chrome-devtools://“ tab when popping out</li>
-          <li>Fix: Windows and Linux now correctly show the new beaker logo image</li>
-          <li>Fix: A weird little window no longer shows up during startup on Windows</li>
+          <li>Fixed an issue with Markdown and JSON rendering</li>
+          <li>Fixed a condition where loading tabs failed to close</li>
         </ul>
       </description>
     </release>
