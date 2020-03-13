@@ -20,11 +20,12 @@
   <url type="help">https://beakerbrowser.com/docs/</url>
   <url type="donation">https://opencollective.com/beaker</url>
   <releases>
-    <release version="0.8.8" date="2019-04-02">
+    <release version="0.8.10" date="2020-03-13">
       <description>
         <ul>
-          <li>Fixed an issue with Markdown and JSON rendering</li>
-          <li>Fixed a condition where loading tabs failed to close</li>
+          <li>Critical security fix.</li>
+          <li>Fix to "library view" UI for Dats that you are seeding.</li>
+          <li>DatArchive is now attached to the window object to conform with previous behaviors.</li>
         </ul>
       </description>
     </release>
