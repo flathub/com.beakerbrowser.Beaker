@@ -32,7 +32,7 @@ modules:
         dest-filename: beaker
         commands:
           - export PATH=$PATH:/var/run/host/usr/bin/
-          - exec /app/beaker/beaker-browser
+          - exec /app/beaker/beaker-browser --no-sandbox
       - type: file
         path: com.beakerbrowser.Beaker.appdata.xml
       - type: file
