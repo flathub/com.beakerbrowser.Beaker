@@ -1,3 +1,4 @@
 {
-    "only-arches": ["x86_64"]
+    "only-arches": ["x86_64"],
+    "end-of-life": "This application is no longer maintained. The main developer is working on another p2p project. See https://github.com/beakerbrowser/beaker/discussions/1944#discussioncomment-1308779."
 }
